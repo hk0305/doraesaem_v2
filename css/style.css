@@ -169,7 +169,9 @@ b {font-weight:700;}
 #gallery_slide .slick-arrow {position:absolute; display:inline-block; width:30px; height:56px; background:url('../images/ico_common.png') no-repeat; text-indent:-9999px; border:0; z-index:1;}
 #gallery_slide .slick-arrow.slick-prev {left:-98px; background-position:-121px -50px;}
 #gallery_slide .slick-arrow.slick-next {right:-98px; background-position:-150px -50px;}
-#gallery_slide .slide_item p {font-size:30px; padding-top:30px; line-height:30px; color:#fff; text-align:center;}
+#gallery_slide p.txt,
+.video_modal p.txt {font-size:30px; padding-top:30px; line-height:30px; color:#fff; text-align:center;}
+.video_modal iframe {vertical-align:top;}
 
 .inner.eshop {padding:100px 50px 120px;}
 .eshop .dot_list {width:680px; margin:0 auto;}
@@ -329,7 +331,8 @@ b {font-weight:700;}
     #gallery_slide .slick-arrow {top:unset; bottom:-10px; width:15px; height:28px; background-size:100px auto;}
     #gallery_slide .slick-arrow.slick-prev {left:10px; background-position:-60px -25px;}
     #gallery_slide .slick-arrow.slick-next {right:10px; background-position:-75px -25px;}
-    #gallery_slide .slide_item p {font-size:15px; padding-top:12px;}
+    #gallery_slide p.txt,
+    .video_modal p.txt {font-size:15px; padding-top:12px;}
 
     .video_modal .modal {position:relative;}
     .video_modal .img_temp {width:100%; height:auto;}
@@ -351,7 +354,7 @@ b {font-weight:700;}
     #footer .inner .info:first-child span {padding-right:10px;}
     #footer .inner .info + .info p {font-size:13px;}
     #footer .inner .info + .info span {font-size:13px; padding-bottom:10px;}
-    #footer .inner .info a {width:190px; padding:8px 12px; font-size:16px;}
+    #footer .inner .info a {width:190px; padding:6px 12px; font-size:15px;}
 }
 
 @media screen and (max-width:720px){
@@ -362,8 +365,8 @@ b {font-weight:700;}
     .table_box ul li span:nth-child(3) {width:40%;}
     .table_box ul li span:last-child {display:block; width:100%; padding-top:5px;}
 
-    #footer .inner .info {display:block; width:265px; margin:0 auto;}
-    #footer .inner .info + .info {margin-top:33px;}
+    #footer .inner .info {display:block; width:100%; margin:0 auto;}
+    #footer .inner .info + .info {margin-top:30px;}
     #footer .inner .info a {width:100%;}
 }
 
